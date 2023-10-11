@@ -156,11 +156,11 @@ ui <- dashboardPage(
               )
       ),
       tabItem(tabName = "readme",
-              HTML("<font size='4'><strong>Overview</strong><br>This R Shiny application aids in searching and retrieving relevant information from onboarding notes. It computes embeddings for the onboarding notes, which can then be used to match and answer user's questions based on the provided information in the notes.</br></br>
+              HTML("<font size='4'><strong>Overview</strong><br>This R Shiny application aids in searching and retrieving relevant information from onboarding notes (limited to English). It computes embeddings for the onboarding notes, which can then be used to match and answer user's questions based on the provided information in the notes.</br></br>
               <strong>How to use:</strong>
               <ul>
               <li>Navigate to the SEARCH tab.</li>
-              <li>Click on the 'Select a folder' button to choose a directory containing your onboarding notes in .txt format.</li>
+              <li>Click on the 'Select a folder' button to choose a directory containing your onboarding notes (in English) in .txt format.</li>
               <li>Compute embeddings for your notes by clicking the 'Compute embeddings' button.</li>
               <li>Set the maximum number of best matching documents you want the app to consider for answering.</li>
               <li>Type your question into the provided text area.</li>
